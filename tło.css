@@ -141,126 +141,146 @@
 
 
 
-.t1 {
-  background-color: teal;
-  color: white;
-}
-
-.t2 {
-  background-color: rgb(153,102,153);
-  color: rgb(255,255,204);
-}
-
-.t3 {
-  background-color: #777799;
-  color: #FFFFFF;
-}
-
-.t4 {
-	
-background-color: #4B0082
-	
-	
-}
-
-.t5 {
-	
-	border: 3px solid blue;
-	background: blue;
-	margin-top: 40px;
-	
-}
+@media screen and (max-width: 1639px) {
 
 
-
-
-
-
-	
-	
-
-
-
-.one {
-	
-	background: white;
-	font-size: 5rem;
-	
-}
-
-
-.p13 {
-	
-	background-image: url(tłostrona.png);
-    background-attachment: fixed;
-    text-align: center;
-    font-size: larger;
-	
-}
-.p12 {
-	
-	background: blue;
-	color: white;
-    border-radius: 20px;
-	font-size: 50px;
-	
-}
-
-.t6 {
-	
-	background: red;
-	font-size: 2rem;
-	
-}
-
-.t7 {
-  background-color: white;
-  color: black;
-}
-
-.t8{
-	
-	background-color: white;
-	color: black;
-	font-size: 2rem;
-	
-}
-
-
-
-.hack { 
-
- background: black;
- color: green;
- 
+.p5 {
+	 
+	 width: 1481px;
+    height: 80px;
+    left: 117px;
+        top: 9px;
+    position: relative;
+    background: white;
+    border-radius: 40px;
+	 
+	 
  }
  
  
-.t9 {
+  .p3 {
 	 
-	 background: blue;
-	 color: red;
-	 font-size: 3rem; 
+	    width: 1481px;
+    height: 47px;
+    left: 117px;
+        top: 28px;
+    position: relative;
+    background: blue;
+    border-radius: 20px;
+   
+    
+	 
+	
+	 
+ }
 }
-.t10 {
-		 
-    margin: 10px 20px 30px 40px; /* top, right, bottom, left */
 
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-	text-align: right;
-	 }	
+@media screen and (max-width: 1577px) {
+	
+	.p5 {
+	 
+	 width: 1481px;
+    height: 80px;
+    left: 47px;
+        top: 9px;
+    position: relative;
+    background: white;
+    border-radius: 40px;
 	 
 	 
-.t11 {
+ }
+ 
+ 
+  .p3 {
+	 
+	    width: 1481px;
+    height: 47px;
+    left: 47px;
+        top: 28px;
+    position: relative;
+    background: blue;
+    border-radius: 20px;
+   
+    
+	 
 	
-	a:link {color: yellow;
-    a:visited {color: yellow;
-	a:active {color: yellow;
-	color: white; 
+	 
+ }
 	
+	
+	
+	
+	
+	
+	
+}
 
+@media screen and (max-width: 1469px) {
+	
+	.p5 {
+	 
+	 width: 1227px;
+    height: 80px;
+    left: 133px;
+        top: 9px;
+    position: relative;
+    background: white;
+    border-radius: 40px;
 	 
 	 
+ }
+ 
+ 
+  .p3 {
+	 
+	    width: 1227px;
+    height: 47px;
+    left: 133px;
+        top: 28px;
+    position: relative;
+    background: blue;
+    border-radius: 20px;
+   
+    
+	 
+	
+	 
+ }
+ 
+  .p6 {
+	 
+	   color: black;
+    font-size: 50;
+    text-decoration: none;
+    width: 318px;
+    height: 71px;
+    position: absolute;
+    top: 7px;
+    left: 496px;
+    
+	 
+	 
+	 
+ }
+ 
+ .p4 {
+	 
+	   color: white;
+	   font-size: 40;
+	   text-decoration: none;
+	   width: 117px;
+    height: 54px;
+    position: absolute;
+    top: -3px;
+    left: 582px;
+    
+	 
+	 
+	 
+ }
+	
+	
+	
+	
+}
+
