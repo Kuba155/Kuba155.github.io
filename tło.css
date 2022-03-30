@@ -148,7 +148,7 @@
     position: absolute;
     top: 187px;
     left: 39px;
-	border: 2px solid#000099;
+	border: 2px solid#18184e;
 	border-radius: 5px;
 	 
 	 
@@ -326,10 +326,12 @@
 	   font-size: 40;
 	   text-decoration: none;
 	   width: 117px;
-    height: 54px;
+    height: 47px;
     position: absolute;
     top: -3px;
     left: 582px;
+	border: 2px solid #3cbabe;
+	border-radius: 5px;
     
 	 
 	 
@@ -395,10 +397,12 @@
 	   font-size: 40;
 	   text-decoration: none;
 	   width: 117px;
-    height: 54px;
+    height: 47px;
     position: absolute;
     top: -3px;
     left: 582px;
+	border: 2px solid #3cbabe;
+	border-radius: 5px;
     
 	 
 	 
@@ -414,6 +418,7 @@
     position: relative;
     background: rgb(128,128,128) ;
     border-radius: 20px;
+	background: linear-gradient(to left, #283593, #1976d2);
 	 
 	 
 	 
@@ -480,10 +485,12 @@
 	   font-size: 40;
 	   text-decoration: none;
 	   width: 117px;
-    height: 54px;
+    height: 47px;
     position: absolute;
     top: -3px;
     left: 396px;
+	border: 2px solid #3cbabe;
+	border-radius: 5px;
     
 	 
 	 
@@ -499,6 +506,7 @@
     position: relative;
     background: rgb(128,128,128) ;
     border-radius: 20px;
+	background: linear-gradient(to left, #283593, #1976d2);
 	 
 	 
 	 
@@ -595,8 +603,8 @@
 	   color: white;
 	   font-size: 25;
 	   text-decoration: none;
-	   width: 117px;
-    height: 54px;
+	   width: 69px;
+    height: 33px;
     position: absolute;
     top: 7px;
     left: 157px;
@@ -615,6 +623,7 @@
     position: relative;
     background: rgb(128,128,128) ;
     border-radius: 20px;
+	background: linear-gradient(to left, #283593, #1976d2);
 	 
 	 
 	 
@@ -649,6 +658,38 @@
 
 
  
+	 
+	 
+ }
+ 
+ .p2 { 
+	width:444px;
+	height:1084px;
+	position:absolute;
+	top: -20px;
+	left: 0px;
+	
+	color: white;
+	background: blue;
+	background-image: url(tłostrona.png);
+    background-attachment: fixed;
+    text-align: center;
+    font-size: larger;
+	
+ }
+ 
+ .p9 {
+	 
+	 color: black;
+	   font-size: 30;
+	   text-decoration: none;
+	   width: 348px;
+    height: 117px;
+    position: absolute;
+    top: 187px;
+    left: 39px;
+	border: 2px solid#18184e;
+	border-radius: 5px;
 	 
 	 
  }
