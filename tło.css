@@ -35,6 +35,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	 background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -75,18 +78,97 @@
  
  }
  
+ .p5_1: {
+	  width: 1481px;
+    height: 80px;
+    left: 210px;
+        top: 21px;
+    position: relative;
+    background: white;
+    border-radius: 40px;
+	overflow: hidden;
+   
+	
+	 
+	 
+ }
+ 
+ .p5_1::before {
+	 
+	  content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1521px;
+    height: 100%;
+    background: linear-gradient(#00ccff,#d400d4);
+	animation: animate 6s linear infinite;
+	  
+	 
+	 
+ }
+ 
+ 
+ .p5_1::after
+ {
+	 
+	 content: '';
+	 position: absolute;
+	 background: #000000;
+	 inset: 4px;
+	 border-radius: 50px;
+	 overflow: hidden;
+	 
+	 
+	 
+	 
+ }
+ 
+ 
+ 
+ @keyframes animate
+ {
+	 0%
+	 {
+		 
+		 transform: rotate(0deg);
+	 }
+	 
+ 100%
+ {
+	 transform: rotate(350deg);
+	 
+ }
+ }
+ 
+ .p5_1 a  {
+	 position:relative;
+	 z-index: 10;
+	 
+	 
+ }
+ 
+ .p5_1 img  {
+	 position:relative;
+	 z-index: 10;
+	 
+	 
+ }
+ 
+ 
+ 
  
  
   .p6 {
 	 
-	   color: black;
+	   color: white;
     font-size: 50;
     text-decoration: none;
     width: 2050px;
     height: 2193px;
     position: absolute;
     top: 7px;
-    left: 606px;
+    left: 567px;
     
 	 
 	 
@@ -103,9 +185,20 @@
     position: relative;
     background: white;
     border-radius: 40px;
+	overflow: hidden;
 	 
 	 
  }
+ 
+ :root
+ {
+	 --gradient: linear-gradient(#61006a, #1976d2)
+	 
+	 
+	 
+	 
+ }
+ 
  
  .p7 {
 	 
@@ -114,25 +207,54 @@
     left: 210px;
         top: 80px;
     position: relative;
-    background: linear-gradient(to left, #283593, #1976d2);
-    border-radius: 20px;
-	
-	 
-	 
-	 
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+	border-radius:20px;
+	 border: 4px solid  #61006a;
 	 
 	 
  }
+ 
+ 
+ 
+ 
+ 
+ @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  .p8 {
 	 
 	 color: white;
 	   font-size: 40;
 	   text-decoration: none;
-	   width: 300px;
+	   width: 115px;
     height: 54px;
     position: absolute;
     top: 40px;
-    left: 440px;
+    left: 533px;
+	border: 3px solid #b31450
 	 
 	 
 	 
@@ -178,7 +300,7 @@
     width: 680px;
     height: 530px;
     position: relative;
-    top: -210px;
+    top: -241px;
     left: -274px;
 
 
@@ -197,6 +319,75 @@
 	 color: rgb(255, 128, 0);
 	 font-size: 50px;
 	 opacity: 0.5;
+	 
+	 
+	 
+ }
+ 
+ .p13 {
+	  width: 1100px;
+    height: 310px;
+    left: 210px;
+        top: 139px;
+    position: relative;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	
+	border-radius:20px;
+	color:white;
+	font-size: 40;
+	line-height: 7;
+	 border: 4px solid  #61006a;
+	 
+	 
+	 
+ }
+ 
+ .p14 {
+	 
+	 
+	  width: 610px;
+    height: 310px;
+    left: 11px;
+        top: 78px;
+    position: relative;
+	border-radius:20px;
+	background-image: url(13.png);
+	text-decoration:none;
+	 
+	 
+	 
+	 
+ }
+ 
+ .p14_2 {
+	 
+	 
+	  width: 471px;
+    height: 310px;
+    left: 2px;
+        top: -360px;
+    position: relative;
+	border-radius:20px;
+	 
+	 
+	 
+	 
+ }
+ 
+ .p14_0 {
+	 
+	 
+	
+	  width: 610px;
+    height: 310px;
+    left: -4px;
+        top: -439px;
+    position: relative;
+	text-decoration:none;
+	
+	 
 	 
 	 
 	 
@@ -241,12 +432,17 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
 	
 	 
  }
+ 
+ 
 }
 
 @media screen and (max-width: 1577px) {
@@ -274,6 +470,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -314,6 +513,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -385,6 +587,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -433,11 +638,30 @@
     left: 52px;
         top: 80px;
     position: relative;
-    background: rgb(128,128,128) ;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+	border-radius:20px;
+	 border: 4px solid  #61006a;
+	 
+	 
+	 
+	 
+	 
+ }
+ .p13 {
+	  width: 1100px;
+    height: 310px;
+    left: 52px;
+        top: 139px;
+    position: relative;
+    background: linear-gradient(to left, #283593, #1976d2);
     border-radius: 20px;
-	background: linear-gradient(to left, #283593, #1976d2);
-	 
-	 
+	color:white;
+	font-size: 40;
+	line-height: 7;
+	
 	 
 	 
 	 
@@ -473,6 +697,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -521,9 +748,12 @@
     left: 52px;
         top: 80px;
     position: relative;
-    background: rgb(128,128,128) ;
-    border-radius: 20px;
-	background: linear-gradient(to left, #283593, #1976d2);
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+	border-radius:20px;
+	 border: 4px solid  #61006a;
 	 
 	 
 	 
@@ -553,7 +783,7 @@
     width: 571px;
     height: 472px;
     position: relative;
-    top: -181px;
+    top: -219px;
     left: -240px;
 
 
@@ -592,6 +822,9 @@
     position: relative;
     background: blue;
     border-radius: 20px;
+	background: linear-gradient(-45deg, #b31450, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
    
     
 	 
@@ -608,7 +841,7 @@
     height: 71px;
     position: absolute;
     top: 20px;
-    left: 149px;
+    left: 97px;
     
 	 
 	 
@@ -639,9 +872,13 @@
         top: 80px;
     position: relative;
     background: rgb(128,128,128) ;
-    border-radius: 20px;
-	background: linear-gradient(to left, #283593, #1976d2);
-	 
+    
+	background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+	border-radius:20px;
+	 border: 4px solid  #61006a;
 	 
 	 
 	 
@@ -653,11 +890,12 @@
 	 color: white;
 	   font-size: 40;
 	   text-decoration: none;
-	   width: 300px;
+	   width: 115px;
     height: 54px;
     position: absolute;
     top: 5px;
     left: 162px;
+	border: 3px solid #b31450
 	 
 	 
 	 
@@ -670,7 +908,7 @@
     width: 400px;
     height: 369px;
     position: relative;
-    top: -132px;
+    top: -149px;
     left: -165px;
 
 
@@ -681,7 +919,7 @@
  
  .p2 { 
 	width:444px;
-	height:1084px;
+	height:2602px;
 	position:absolute;
 	top: -20px;
 	left: 0px;
@@ -724,6 +962,90 @@
 	border-radius: 5px;
 
 	
+ }
+ 
+ .p13 {
+	  width: 421px;
+    height: 966px;
+    left: 16px;
+        top: 139px;
+    position: relative;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	
+	border-radius:20px;
+	color:white;
+	font-size: 40;
+	line-height: 7;
+	 border: 4px solid  #61006a;
+	 
+	 
+	 
+ }
+ 
+ .p5_1::before {
+	 
+	  content: "";
+    position: absolute;
+    top: 0px;
+    left: -539px;
+    width: 1521px;
+    height: 100%;
+    background: linear-gradient(#00ccff,#d400d4);
+	animation: animate 6s linear infinite;
+	  
+	 
+	 
+ }
+ .p14 {
+	 
+	 
+	  width: 407px;
+    height: 310px;
+    left: 11px;
+        top: 245px;
+    position: relative;
+	border-radius:20px;
+	background-image: url(13.png);
+	text-decoration:none;
+	 
+	 
+	 
+	 
+ }
+ 
+ .p14_0 {
+	 
+	 
+	
+	  width: 610px;
+    height: 310px;
+    left: -4px;
+        top: -1157px;
+    position: relative;
+	text-decoration:none;
+	
+	 
+	 
+	 
+	 
+ }
+ 
+ 
+ .p14_2 {
+	 
+	 
+	  width: 407px;
+    height: 310px;
+    left: 6px;
+        top: -900px;
+    position: relative;
+	border-radius:20px;
+	 
+	 
+	 
+	 
  }
 	
 	
