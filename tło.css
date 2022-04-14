@@ -13,7 +13,7 @@
 
 .p2 { 
 	width:1953px;
-	height:2284px;
+	height:2390px;
 	position:absolute;
 	top: -20px;
 	left: 0px;
@@ -393,6 +393,48 @@
 	 
  }
  
+ .pdown {
+	 
+	   width: 1885px;
+    height: 118px;
+	 position: relative;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	left: -11px;
+	top: 950px;
+	
+	 
+	 
+	 
+	 
+ }
+ 
+ 
+ .pdown1 {
+	 
+	 
+	 position:relative;
+	 top: 31px;
+	 left:36px;
+	 color:white;
+	  opacity:60%
+	 
+	 
+	 
+ }
+ 
+ .pdown2 {
+	 
+	 
+	  position:relative;
+	 top: 82px;
+	 left:1397px;
+	 color:white;
+	 opacity:50%
+	 
+	 
+ }
  
  
  
@@ -439,6 +481,23 @@
     
 	 
 	
+	 
+ }
+ 
+ .pdown {
+	 
+	   width: 1885px;
+    height: 118px;
+	 position: relative;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	left: -11px;
+	top: 950px;
+	
+	 
+	 
+	 
 	 
  }
  
@@ -919,7 +978,7 @@
  
  .p2 { 
 	width:444px;
-	height:2602px;
+	height:2629px;
 	position:absolute;
 	top: -20px;
 	left: 0px;
@@ -1042,6 +1101,22 @@
         top: -900px;
     position: relative;
 	border-radius:20px;
+	 
+	 
+	 
+	 
+ }
+ .pdown {
+	 
+	   width: 487px;
+    height: 118px;
+	 position: relative;
+    background: linear-gradient(-45deg, #61006a, #1976d2);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	left: -11px;
+	top: 733px;
+	
 	 
 	 
 	 

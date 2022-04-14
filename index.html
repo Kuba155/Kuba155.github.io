@@ -12,6 +12,28 @@
 		
 		
 		<title>Strona</title>
+		
+		
+		<script type="text/javascript">
+		
+		functino odliczanie()
+		{
+		
+		var dzisiaj = new Date();
+		var dzien = dzisiaj.getDate();
+		var miesiac = dzisiaj.getMonth()+1;
+		var rok = dzisiaj.getFullYear();
+		
+		var godzina = dzisiaj.getHours();
+		var minuta = dzisiaj.getMinutes();
+		var sekunda = dzisiaj.getSeconds();
+		
+		document.getElementByld("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+"|"+godzina+":"+minuta+":"+sekunda;
+		
+		setTimeout(odliczanie()",10000);
+		}
+		
+		</script>
 	
 		
 		
@@ -71,7 +93,6 @@
 	<div class="p7">
 	
 	<a class="p8"> &nbsp;INFO </a> 
-	<a class="p9"  > - - - - - - - - - - -  </a>
 	<a class="p9"  > - Testowa Beta </a>
 	<a class="p109" > - - - - - - - - - - - </a>
 	 
@@ -94,6 +115,31 @@
 	
 	 <a class="p14_0" href="https://www.twitch.tv/xmonter_"> <img  class="p14" src="13.png"  alt="twitch">   </a>
 	<img class="p14_2" src="14.png"  > </img> 
+	
+	
+	
+	</div>
+	
+	
+	
+	<div id="zegar"></div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="pdown"> 
+	
+	
+	
+	<A class="pdown1"> &nbsp; Create by: xMonTer </a> 
+	<a class="pdown2"> create: 2022 </a>
+	
+	
 	
 	
 	
