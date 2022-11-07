@@ -1,0 +1,184 @@
+.p1 {
+	
+	overflow-y: scrollBar;
+	overflow-x:hidden;
+	background:black;
+	
+}
+
+
+.navbar-center {
+	
+	
+	width:42%;
+	height:36%;
+	position: absolute;
+	top:13%;
+	left:30%;
+	border-radius: 20px;
+	background: linear-gradient(-45deg,  #01017a, #49ffff);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+.navbar-center-funkcje {
+	
+	
+	width:42%;
+	height:5%;
+	position: absolute;
+	top:53%;
+	left:30%;
+	
+	border-radius: 20px;
+	
+	
+	
+}
+
+.navbar-center-funkcje li {
+	
+	
+	
+	list-style:none;
+	display:none;
+	
+	
+	
+	
+	
+	
+	
+}
+
+.navbar-center-funkcje a:focus + li {
+	
+	
+	
+	list-style:none;
+	display:block;
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+.navbar-center-funkcje-1 {
+	
+	text-decoration:none;
+	color:black;
+	width:100%;
+	height:98%;
+	position: absolute;
+	top:1%;
+	left:0%;
+	background:white;
+	border-radius: 23px;
+	cursor:pointer;
+	transition: 0.5s;
+
+	
+	
+	
+}
+.navbar-center-funkcje-1:hover {
+	box-shadow: inset 1000px 0 0 0 #0063ff;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+.navbar-center-funkcje-1-t {
+	
+	
+	position: absolute;
+	top:20%;
+	left:39%;
+	font-size: 145%;
+	
+	
+	
+	
+	
+}
+
+.navbar-center-ukryta1 {
+	
+	
+	
+	width:123%;
+	height:978%;
+	position:absolute;
+	top:-802%;
+	left:-13%;
+	
+	border-radius:23px;
+	background: linear-gradient(-45deg,  #23a6d5, #7100f9);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	
+	
+	
+	
+	
+}
+
+.navbar-center-ukryta1-t {
+	
+	
+	position: absolute;
+	top:4%;
+	left:3%;
+	font-size: 100%;
+	
+	
+	
+	
+	
+	
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-center-t {
+	
+	
+	position: absolute;
+	top:4%;
+	left:3%;
+	font-size: 100%;
+	
+	
+	
+	
+	
+}

@@ -4,6 +4,7 @@
 	
 	overflow-y:Scrollbar;
 	overflow-x:hidden;
+	background-size:auto;
 	
 }
 
@@ -51,13 +52,14 @@
 	   color: white;
 	   font-size: 38;
 	   text-decoration: none;
-	   width: 100px;
+	   width: 169px;
     height: 44px;
     position: absolute;
     top:-1px;
     left: 682px;
 	border: 2px solid #3cbabe;
 	border-radius: 5px;
+    transition: 1s;
     
 	 
 	 
@@ -68,7 +70,7 @@
  .p4:hover {
 	 
 	 
- background: red;
+ box-shadow: inset 300px 0 0 0 gray;
  border-border-bottom: 2px solid#red;
  border-radius: 5px;
  color: #970000;
@@ -283,7 +285,7 @@
 	   font-size: 30;
 	   text-decoration: none;
 	   width: 748px;
-    height: 39px;
+    height: 169px;
     position: absolute;
     top: 234px;
     left: 39px;
