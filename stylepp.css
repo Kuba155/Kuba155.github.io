@@ -1,0 +1,273 @@
+
+
+.p1 {
+
+    overflow-y: scroll;
+overflow-x: hidden;
+background: linear-gradient(-45deg, #5900b3, #1a0033);
+width: 100%;
+height: 1600px;
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+
+
+
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes kreski {
+	0% {
+		top:-26%;
+		left: -16;
+	}
+	50% {
+		top: -24%;
+		left: -14;
+	}
+	100% {
+		top:-26%;
+		left: -16;
+	}
+}
+
+.navbar-midle {
+
+position: absolute;
+top: -17%;
+left: 4%;
+width: 100%;
+height: 100%;
+
+
+
+}
+
+.navbar-midle li {
+
+
+	list-style: none;
+	padding: 13rem;
+	
+	}
+
+
+
+
+.navbar-midle-box {
+
+width: 70%;
+height: 35%;
+position: absolute;
+background: rgba(1, 3, 41, 0.5) ;
+border-radius: 23px;
+
+
+
+}
+
+.text-M {
+
+
+color: white;
+position: absolute;
+top: 5%;
+left: 3%;
+font-size: 150%;
+
+
+}
+
+
+
+.wstecz {
+
+position: fixed;
+left: 50%;
+bottom: 4%;
+text-decoration: none;
+color: white;
+font-size: 150%;
+cursor: pointer;
+
+
+
+}
+
+.wstecz-box {
+
+background: rgba(1, 3, 41, 0.5);
+width: 8%;
+height: 5%;
+position: fixed;
+bottom: 3%;
+left: 48%;
+border-radius: 25px;
+transition: 1s;
+z-index: 2022;
+
+}
+
+.wstecz-box:hover {
+
+background: #5900b3;
+
+}
+
+.navbar-rogi {
+
+
+
+width: 100%;
+height: 100%;
+position: fixed;
+
+
+
+}
+
+.navbar-rogi-kreski {
+
+
+position: absolute;
+top: 20%;
+left: 20%;
+width: 100%;
+height: 100%;
+
+}
+
+.navbar-rogi-kreski2 {
+
+
+	position: absolute;
+	top: 87%;
+	left: 116%;
+	width: 100%;
+	height: 100%;
+	
+	}
+
+
+.navbar-rogi-kreski-k {
+
+
+background: white;
+height: 46%;
+width: 3px;
+position: absolute;
+top: -26%;
+left: -16%;
+transform: rotate(30deg);
+animation: kreski 4s ease infinite;
+
+}
+
+.navbar-rogi-kreski-k2 {
+
+
+	background: white;
+	height: 46%;
+	width: 3px;
+	position: absolute;
+	top: -26%;
+	left: -22%;
+	transform: rotate(30deg);
+	animation: kreski 4s ease infinite;
+	
+	}
+
+	.navbar-rogi-kreski-k3 {
+
+
+		background: white;
+		height: 46%;
+		width: 3px;
+		position: absolute;
+		top: -26%;
+		left: -19%;
+		transform: rotate(30deg);
+		animation: kreski 4s ease infinite;
+		
+		}
+
+
+.navbar-midle-box-G {
+
+
+width: 7%;
+height: 25%;
+filter: grayscale(100%);
+transition: 1s;
+position: absolute;
+top: 68%;
+left: 2%;
+
+
+
+		}
+
+.navbar-midle-box-G:hover	 {
+
+filter: grayscale(0%);
+
+
+
+}
+
+.navbar-midle-box-G-p {
+
+
+background: white;
+position: absolute;
+top: 0%;
+left: 50%;
+width: 3px;
+height: 100%;
+
+
+}
+
+.navbar-midle-img {
+
+
+width: 41%;
+height: 91%;
+position: absolute;
+top: 4%;
+left: 55%;
+transition: 1s ;
+border-radius: 23px;
+
+
+
+
+}
+
+.navbar-midle-img:hover {
+
+
+	width: 110%;
+	height: 250%;
+	position: absolute;
+	top: 6%;
+	left: -7%;
+	z-index: 2022;
+	
+	
+	
+	
+	}
+
+	

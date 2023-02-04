@@ -1,0 +1,1248 @@
+
+
+
+.p2 {
+	
+	overflow-y: scrollBar;
+	overflow-x:hidden;
+	background: linear-gradient(-45deg,  #23a6d5, #003172);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+	
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+	
+	
+	
+	
+::-webkit-scrollbar {
+	
+	width:10px;
+	
+}
+
+::-webkit-scrollbar-track {
+	
+	background: #bddae1;
+
+	
+	
+}
+::-webkit-scrollbar-thumb {
+	background:gray;
+	border-radius:20px;
+	
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #494b4c;
+}
+	
+
+
+.navbar-top {
+	
+	width: 90%;
+	height: 60px;
+	position: fixed;
+	background: white;
+	top: 2%;
+	left: 5%;
+	border-radius: 25px;
+	z-index: 2020;
+	
+	
+	
+}
+
+
+
+
+/* tabele obrazy */
+
+
+.obraz-tabele-1 {
+	
+	width:36%;
+	height:52%;
+	position:absolute;
+	top: 34%;
+	left: 3%;
+	background: black;
+	border-radius: 20px ;
+	color:white;
+	text-align: center;
+	
+	
+}
+
+
+
+.obraz-tabele-1-2 {
+	
+	width:36%;
+	height:52%;
+	position:absolute;
+	top: 44%;
+	left: 27%;
+	background: black;
+	border-radius: 20px ;
+	color:white;
+	text-align: center;
+	
+	
+	
+	
+}
+
+.obraz-tabele-1-2-C {
+	width:36%;
+	height:52%;
+	position:absolute;
+	top: 42%;
+	left: 26%;
+	background: #bddae1;
+	border-radius: 20px ;
+	
+	
+}
+
+/* tabele */
+
+
+.navbar-pod {
+	
+	
+	width: 83%;
+	height: 545px;
+	position: absolute;
+	background: #bddae1;
+	top: 189px;
+	left: 5%;
+	border-radius: 25px;
+	box-shadow:  5px 5px 5px;
+	
+}
+
+.navbar-pod2 {
+	
+	
+	width: 83%;
+	height: 637px;
+	position: absolute;
+	background: #bddae1;
+	top: 768px;
+	left: 5%;
+	border-radius: 25px;
+	box-shadow:  5px 5px 5px;
+	
+	
+	
+	
+	
+	
+}
+
+.navbar-pod3 {
+	
+	
+	width: 83%;
+	height: 371px;
+	position: absolute;
+	background: #bddae1;
+	top: 1440px;
+	left: 5%;
+	border-radius: 25px;
+	box-shadow:  5px 5px 5px;
+	
+	
+	
+	
+	
+	
+	
+}
+
+/* ------- */
+
+
+
+
+.navbar-top-text-logo {
+	
+	
+	position: fixed;
+	top:4%;
+	left:7%;
+	font-size:160%;
+	
+	
+	
+}
+
+/* napisy w tabelach S */
+
+.navbar-pod-text{
+	
+	
+	position:absolute;
+	top:2%;
+	left:1%;
+	font-size:20px;
+	width:96%;
+}
+
+@media screen and (max-width: 1617px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:19px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1514px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:18px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1418px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:17px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1111px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:16px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1016px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:15px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 867px) {
+	
+	
+.navbar-pod-text {
+	
+	
+	
+	font-size:14px;
+	
+}
+
+
+
+}
+
+.navbar-pod-text-tytuł {
+	
+	
+	position: absolute;
+	top:-3%;
+	left:3%;
+	font-size:171%;
+	
+	
+	
+}
+
+
+
+
+.navbar-pod-text2 {
+	
+	
+	position:absolute;
+	top:10%;
+	left:1%;
+	font-size:20px;
+	width:96%;
+	height:100%;
+	
+	
+	
+	
+	
+}
+@media screen and (max-width: 1617px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:19px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1514px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:18px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1418px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:17px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1111px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:16px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1016px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:15px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 867px) {
+	
+	
+.navbar-pod-text2 {
+	
+	
+	
+	font-size:14px;
+	
+}
+
+
+
+}
+
+.navbar-pod-text2-tytuł {
+	
+	
+	position: absolute;
+	top:-1%;
+	left:3%;
+	font-size:171%;
+	
+	
+	
+}
+
+.navar-top-text-B {
+	
+	
+	position:absolute;
+	top:30%;
+	left:5%;
+	font-size:20px;
+
+	width:96%;
+	height:100%;
+	cursor: pointer;
+	transition: 1s;
+	
+	
+	
+	
+	
+}
+
+
+.navbar-pod-text3 {
+	
+	
+	
+	position:absolute;
+	top:10%;
+	left:1%;
+	font-size:20px;
+	width:96%;
+	height:100%;
+}
+@media screen and (max-width: 1617px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:19px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1514px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:18px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1418px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:17px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1111px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:16px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 1016px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:15px;
+	
+}
+
+
+
+}
+@media screen and (max-width: 867px) {
+	
+	
+.navbar-pod-text3 {
+	
+	
+	
+	font-size:14px;
+	
+}
+
+
+
+}
+
+.navbar-pod-text3-tytuł {
+	position: absolute;
+	top:-3%;
+	left:3%;
+	font-size:171%;
+	
+	
+	
+	
+	
+}
+
+/* --------------- */
+
+.navar-top-text-B:hover {
+	
+	
+	color: gray;
+	
+	
+	
+	
+	
+	
+}
+
+.navbar-top-text-button {
+	
+	
+	
+	width:5%;
+	height:99%;
+	position:absolute;
+	top:0%;
+	left:95%;
+	transition: 1s;
+	cursor: pointer;
+	background:white;
+	box-shadow: inset 0 0 0 0 #005f63;
+	border-radius: 20px;
+	
+	
+	
+	
+}
+
+.navbar-top-text-button:hover {
+	
+	
+	
+	
+	background: #e8ffff;
+	
+	
+	
+	
+	
+}
+
+.navbar-P {
+	
+	
+	height: 1000px;
+	width: 10%;
+	position:absolute;
+	top: 20%; 
+	left: 89%;
+	background: #bddae1;
+	border-radius: 20px;
+	border: 5px solid #9e5800;
+	
+	
+	
+	
+}
+
+.navbar-P-układ {
+	
+	height: 1000px;
+	width: 80%;
+	position:absolute;
+	top: 1%; 
+	left: -3%;
+	
+}
+
+.navbar-P-układ ul li{
+	padding:6px;
+	text-align:center;
+	border-radius: 20px;
+	
+}
+
+
+.navbar-P-układ li:hover {
+	
+	color: gray;
+	background:white;
+}
+
+.navbar-P-układ  a {
+	
+   
+   color:black;
+}
+
+
+
+
+/* tu moja wersja */
+
+.menu-button-menu {
+	
+	width:6%;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:88%;
+	list-style-type:none;
+	padding:0;
+	
+	
+	
+}
+
+.menu-button-menu li {
+	
+	position: absolute;
+	top:128%;
+	width:141%;
+	height:336%;
+	text-align:center;
+	transition: 1s;
+	display:none;
+	transition: 1s;
+	
+	
+	
+}
+
+.menu-button-menu a:focus + li,
+.menu-button-menu li:hover {
+	
+	
+	display:block;
+	position:absolute;
+	
+	
+}
+
+
+
+
+.menu-button {
+	
+	width:6%;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:81%;
+	list-style-type:none;
+	padding:0;
+	
+	
+}
+
+
+.menu-button li {
+	
+	
+	position: absolute;
+	top:128%;
+	width:141%;
+	height:336%;
+	text-align:center;
+	transition: 1s;
+	display:none;
+	transition: 1s;
+	
+	
+	
+}
+
+
+
+.menu-button a:focus + li,
+.menu-button li:hover
+ {
+	
+	display:block;
+	position:absolute;
+	
+	
+}
+
+
+
+
+
+
+/* do tąd kod manu */
+
+
+.text-kontakt {
+	
+	position:absolute;
+	top:15%;
+	left: 26%;
+	font-size: 112%;
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+
+.text-onas {
+	
+	position:absolute;
+	top:29%;
+	left: 19%;
+	font-size: 150%;
+	color:black;
+	text-decoration:none;
+
+	
+	
+}
+
+.text-onas-block {
+	
+	width:100%;
+	height:93%; 
+	position:absolute;
+	border-radius: 20px;
+	background:white;
+	cursor:pointer;
+	transition: 1s;
+	top:4%;
+}	
+
+
+
+.text-onas-block:hover,
+.text-onas-block:focus {
+	
+	background:gray;
+	
+}	
+
+.text-poczta {
+	
+	position:absolute;
+	top:18%;
+	left: 30%;
+	font-size: 112%;
+	text-decoration: none;
+	color: black;
+	
+	
+	
+	
+	
+	
+}
+
+.text-poczta-an {
+	
+	
+	width:89%;
+	height: 15%;
+	position:absolute;
+	top:23%;
+	left:0%;
+	background: white;
+	box-shadow: 0px 0px 23px 0px white;
+	cursor: pointer;
+	border-radius: 20px;
+	transition:1s;
+	
+	
+	
+	
+}
+
+.text-poczta-an:hover {
+	
+	background:gray;
+	
+	
+}
+
+.text-kontakt-an {
+	
+	width:89%;
+	height: 15%;
+	position:absolute;
+	top:0%;
+	left:0%;
+	background: white;
+	box-shadow: 0px 0px 23px 0px white;
+	cursor: pointer;
+	border-radius: 20px;
+	transition:1s;
+	
+}
+
+
+
+
+.text-kontakt-an:hover {
+	
+	background:gray;
+	
+}
+
+.text-menu-button {
+	
+	width:100%;
+	height:93%; 
+	position:absolute;
+	border-radius: 20px;
+	background:white;
+	cursor:pointer;
+	transition: 1s;
+	top:4%;
+	
+	
+	
+	
+	
+	
+}
+
+.text-menu-button:hover,
+.text-menu-button:focus  {
+	
+	background: gray;
+	
+	
+	
+	
+	
+	
+}
+
+.text-menu-button-text {
+	
+	position:absolute;
+	top:27%;
+	left: 19%;
+	font-size: 150%;
+	color:black;
+	text-decoration:none;
+	
+	
+	
+}
+
+
+
+.manu-button-F {
+	
+	
+	width:119%;
+	height: 15%;
+	position:absolute;
+	top:0%;
+	left:0%;
+	background: white;
+	box-shadow: 0px 0px 23px 0px white;
+	cursor: pointer;
+	border-radius: 20px;
+	transition:1s;
+	
+	
+	
+	
+}
+
+.manu-button-F:hover {
+	
+	background: gray;
+	
+	
+	
+	
+}
+
+.manu-butext-trybC {
+	
+	position:absolute;
+	top:15%;
+	left: 21%;
+	font-size: 112%;
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+
+
+	
+	
+	
+	
+	
+	
+.menu-button-konto {
+	
+	width:3%;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:96%;
+	list-style-type:none;
+	padding:0;
+	
+	
+}
+
+
+.menu-button-konto li {
+	
+	
+	position: absolute;
+	top:128%;
+	width:268%;
+	height:336%;
+	text-align:center;
+	transition: 1s;
+	display:none;
+	transition: 1s;
+	
+	
+	
+}
+
+
+
+.menu-button-konto a:focus + li,
+.menu-button-konto li:hover
+ {
+	
+	display:block;
+	position:absolute;
+	
+	
+}
+
+
+.block-konto {
+	
+	width:100%;
+	height:93%; 
+	position:absolute;
+	border-radius: 20px;
+	background:gray;
+	cursor:pointer;
+	transition: 1s;
+	top:4%;
+}	
+
+.block-konto:hover,
+.block-konto:focus {
+	
+	background:black;
+	
+}	
+
+
+.text-konto {
+	
+	width:89%;
+	height: 15%;
+	position:absolute;
+	top:0%;
+	left:-36%;
+	background: white;
+	box-shadow: 0px 0px 23px 0px white;
+	cursor: pointer;
+	border-radius: 20px;
+	transition:1s;
+	
+}
+
+
+.text-konto:hover {
+	
+	background:gray;
+	
+}
+
+.text-zaloguj {
+	
+	position:absolute;
+	top:15%;
+	left: 26%;
+	font-size: 112%;
+	text-decoration: none;
+	color: black;
+	
+}
+
+/* NOWE */
+
+
+
+
+
+.ikony-tabela2 {
+	
+	
+	width:14%;
+	height:13%;
+	position: absolute;
+	bottom:0%;
+	right:0%;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+.ikony-tabela2 ul {
+	
+	
+	display:flex;
+	width:173%;
+	height:58%;
+	list-style:none;
+	font-size:150%;
+	   
+	
+	
+	
+	
+	
+}
+
+.ikony-tabela2 ul li {
+	
+	
+	cursor:pointer;
+	margin:3%;
+	background:#bddae1;
+	border-radius:20%;
+	width:13%;
+	height:68%;
+	text-align:center;
+	transition:1s;
+	line-height:42px;
+	
+
+	
+
+	
+	
+	
+	
+}
+.ikony-tabela2 ul li:hover {
+	
+	
+	
+	background:gray;
+	
+
+	
+	
+	
+	
+}
+
+.ikony-tabela1 {
+	
+	
+	width:14%;
+	height:16%;
+	position: absolute;
+	bottom:-2%;
+	right:0%;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+.ikony-tabela1 ul {
+	
+	
+	display:flex;
+	width:173%;
+	height:58%;
+	list-style:none;
+	font-size:150%;
+	   
+	
+	
+	
+	
+	
+}
+
+.ikony-tabela1 ul li {
+	
+	
+	cursor:pointer;
+	margin:3%;
+	background:#bddae1;
+	border-radius:20%;
+	width:13%;
+	height:68%;
+	text-align:center;
+	transition:1s;
+	line-height:42px;
+	
+
+	
+
+	
+	
+	
+	
+}
+.ikony-tabela1 ul li:hover {
+	
+	
+	
+	background:gray;
+	
+
+	
+	
+	
+	
+}
+
+.ikony-tabela3 {
+	
+	
+	width:14%;
+	height:23%;
+	position: absolute;
+	bottom:-1%;
+	right:0%;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+.ikony-tabela3 ul {
+	
+	
+	display:flex;
+	width:173%;
+	height:58%;
+	list-style:none;
+	font-size:150%;
+	   
+	
+	
+	
+	
+	
+}
+
+.ikony-tabela3 ul li {
+	
+	
+	cursor:pointer;
+	margin:3%;
+	background:#bddae1;
+	border-radius:20%;
+	width:13%;
+	height:68%;
+	text-align:center;
+	transition:1s;
+	line-height:42px;
+	
+
+	
+
+	
+	
+	
+	
+}
+.ikony-tabela3 ul li:hover {
+	
+	
+	
+	background:gray;
+	
+
+	
+	
+	
+	
+}
+
+

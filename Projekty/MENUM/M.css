@@ -1,0 +1,324 @@
+
+/* rozmiary można ustalać w "%" albo w "px" albo w "rem" i kilku innych */
+/* rozmiar w "%" dostosowuje się do ekranu */ 
+
+.p1 {
+/*ustawienia paska przewijania prawa strona widoczna dolny ukryty*/
+overflow-y: scroll; /* prawa strona */
+overflow-x: hidden; /* dolny */ 
+/*kolor tła*/
+background: rgba(133, 117, 117, 0.867); /* kolor RGBA */
+/*rozmiar tła automatyczny*/
+height: 100%;
+width: 100%;
+/*to tło*/
+
+}
+
+
+.navbar-top {
+/* to ten pasek u góry*/
+/*rozmiar paska*/
+height: 8%;
+width: 100%;
+/*kolor tła paska*/
+background: rgba(255, 255, 255, 0.867);
+/*pozycja paska */
+position: absolute;
+/*umiejscowienie paska*/
+top: 0%; /* góra */
+left: 0%; /* lewa */ /* jest jeszcze "bottom" - dolny bar i "right" - prawy bar */
+
+
+}
+
+.navbar-top-logo {
+
+/*pozycja napisu MENU*/
+position: absolute;
+top: 20%;
+left: 47%;
+/*rozmiar napisu*/
+font-size: 250%;
+}
+
+.navbar-zdjecia {
+
+/*border ze zdjeciami*/
+
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+/*zdjecia*/
+.navbar-zdjecia-img{
+
+    height: 43%;
+    width: 50%;
+    position: absolute;
+    top: 8%;
+    left: 0%;
+    
+    background: black; /* kolor tła */
+}
+
+.navbar-zdjecia-img2 {
+
+    height: 43%;
+    width: 50%;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    
+    background: black;
+
+}
+/*-------*/
+
+.navbar-MENU {
+
+height: 2000px; 
+width: 119%;
+position: absolute;
+top: 65%;
+left: -18%;
+background: white;
+
+
+}
+
+.navbar-MENU-mapa {
+
+height: 8%;
+width: 62%;
+position: absolute;
+top: 54%;
+left: 18%;
+background: white;
+border-radius: 40px; /* nadaje zaokrąglenie na katach */
+
+}
+
+.navbar-MENU-ZS {
+
+    height: 10%;
+    width: 60%;
+    position: absolute;
+    top: 4%;
+    left: -1%;
+    font-size: 232%;
+}
+
+.navbar-MENU-bar  {
+
+
+height: 100%;
+width: 100%;
+position: absolute;
+top: 4%;
+left: 23%;
+font-size: 150%;
+
+}
+
+/* nazwa classy i dodatek ol nadaje styl na classe i ol pod klasą */
+/* czyli to co czerpie z classy ma w sobie "ol" i odrazu ustala na "ol" styl */
+.navbar-MENU-bar ol {
+    /* pading ustala przestrzen pomiedzy borderami*/
+
+    padding: 10rem;
+  
+
+    
+    }
+
+.navbar-MENU-ZU {
+
+font-size: 232%;
+position: absolute;
+top: 35%;
+
+}
+
+.navbar-MENU-OB {
+
+font-size: 232%;
+position: absolute;
+top: 60%;
+
+}
+
+.navbar-MENU-mapa-zak {
+
+position: absolute;
+top: 30%;
+left: 30%;
+font-size: 150%;
+text-decoration: none; /* usuwa podkreślenie hiperłącza */
+color: black; /* ustala kolor textu */
+}
+
+.navbar-MENU-mapa-zak:hover {
+
+color: gray;
+
+}
+
+.navbar-MENU-mapa-zup {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navbar-MENU-mapa-zup:hover {
+
+color: gray;
+
+}
+
+.navbar-MENU-mapa-obi {
+
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar-MENU-mapa-obi:hover {
+
+   
+    color: gray;
+
+}
+
+
+/*ręczne ustawianie skali - (nie ogarniecie) */ 
+/* ustala ręcznie skale do odpowiedniego rozmiaru ekranu */
+
+@media screen and (max-width: 1362px) {
+
+
+    .navbar-MENU-mapa-obi {
+
+        position: absolute;
+        top: 30%;
+        left: 58%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    }
+
+    .navbar-MENU-mapa-zup {
+
+        position: absolute;
+        top: 30%;
+        left: 49%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1360px) {
+
+
+    .navbar-MENU-mapa-obi {
+
+        position: absolute;
+        top: 30%;
+        left: 62%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    }
+
+    .navbar-MENU-mapa-zup {
+
+        position: absolute;
+        top: 30%;
+        left: 49%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+
+    .navbar-MENU-mapa-zak {
+
+        position: absolute;
+        top: 30%;
+        left: 22%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+        }
+
+
+
+
+}
+
+@media screen and (max-width: 945px) {
+
+
+    .navbar-MENU-mapa-obi {
+
+        position: absolute;
+        top: 30%;
+        left: 62%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    }
+
+    .navbar-MENU-mapa-zup {
+
+        position: absolute;
+        top: 30%;
+        left: 47%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+
+    .navbar-MENU-mapa-zak {
+
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        font-size: 150%;
+        text-decoration: none;
+        color: black;
+        }
+
+
+
+
+}
+
+
+

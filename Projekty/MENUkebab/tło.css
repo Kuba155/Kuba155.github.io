@@ -1,0 +1,439 @@
+.p1 {
+
+overflow-y: scroll;
+overflow-x: hidden;
+background: #D9D9D9 ;
+height: 100%;
+width: 100%;
+
+}
+
+.navbar-top {
+    height: 47px;
+    width: 89%;
+    background: white;
+    position: fixed;
+    top:2%;
+    left: 5%;
+    z-index: 2022;
+    border-radius: 20px;
+    box-shadow: 0px 0px 23px 0px gray;
+}
+
+.navbar-top-menu {
+
+position: absolute;
+top: 12%;
+left: 48%;
+font-size: 200%;
+}
+
+.navbar-top-mapa {
+
+height: 100%;
+width: 100%;
+position: absolute;
+top: 3%;
+left: 90%;
+}
+
+.navbar-top-mapa li {
+
+
+display: none;
+list-style: none;
+position: absolute;
+top: 133%;
+left: 4%;
+height: 83%;
+width: 70%;
+font-size: 140%;
+
+}
+
+.navbar-top-mapa a:focus + li,
+.navbar-top-mapa li:hover {
+
+display: block;
+
+
+
+}
+
+.navbar-top-mapa-text-box {
+
+cursor: pointer;
+text-decoration: none;
+color: black;
+height: 83%;
+width: 14%;
+position: absolute;
+top: 5%;
+left: -5%;
+background: white;
+border-radius: 20px;
+transition: 1s;
+box-shadow: 0px 0px 23px 0px white;
+
+}
+
+.navbar-top-mapa-text-box:hover,
+.navbar-top-mapa-text-box:focus {
+
+ 
+    background: gray;
+   
+
+    }
+
+.navbar-top-mapa-text{
+
+position: absolute;
+top: 12%;
+left: 19%;
+color: black;
+font-size: 160%;
+
+}
+
+.navbar-top-mapa-inf-box {
+
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    height: 85%;
+    width: 9%;
+    position: absolute;
+    top: 5%;
+    left: -2%;
+    background: white;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 23px 0px gray;
+
+
+}
+
+.navbar-top-mapa-inf-box:hover {
+
+    background: gray;
+
+
+}
+
+.navbar-top-mapa-inf {
+
+position: absolute;
+top: 13%;
+left: 21%;
+
+
+
+
+}
+
+.navbar-top-logo {
+
+position: absolute;
+height: 281%;
+width: 23%;
+top: -79%;
+left: -6%;
+
+}
+
+.navbar-img {
+
+height: 43%;
+width: 31%;
+position: absolute;
+top: 12%;
+left: 10%;
+border-radius: 20px;
+}
+
+.navbar-cut-img {
+
+height: 43%;
+width: 33%;
+position: absolute;
+top: 34%;
+left: 31%;
+border-radius: 20px;
+background: #D9D9D9;
+
+}
+
+.navbar-img2 {
+
+    height: 43%;
+    width: 31%;
+    position: absolute;
+    top: 36%;
+    left: 32%;
+    border-radius: 20px;
+}
+
+.navbar-img3 {
+
+    height: 43%;
+    width: 31%;
+    position: absolute;
+    top: 12%;
+    left: 56%;
+    border-radius: 20px;
+}
+
+.navbar-tabela {
+
+
+height: 1603px;
+width: 75%;
+position: absolute;
+top: 100%;
+left: 15%;
+background: white;
+border-radius: 20px;
+
+}
+
+
+.navbar-menu-k {
+
+    height: 1800px;
+    width: 75%;
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    font-size: 150%;
+
+}
+
+.navbar-menu-k ol {
+
+padding: 6rem;
+
+
+}
+
+.navbar-menu-k-keb {
+
+
+
+font-size: 232%;
+
+}
+
+.navbar-top-mapa-inf-box2 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    height: 85%;
+    width: 9%;
+    position: absolute;
+    top: 118%;
+    left: -2%;
+    background: white;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 23px 0px gray;
+}
+
+.navbar-top-mapa-inf2 {
+    position: absolute;
+    top: 13%;
+    left: 29%;
+}
+
+.navbar-top-mapa-inf-box2:hover {
+
+background: gray;
+
+}
+
+.navbar-top-mapa-inf-box3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    height: 85%;
+    width: 27%;
+    position: absolute;
+    top: 243%;
+    left: -11%;
+    background: white;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 0px 0px 23px 0px gray;
+}
+
+.navbar-top-mapa-inf3 {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+.navbar-top-mapa-inf-box3:hover {
+
+background: gray;
+
+}
+
+.navbar-zd2 {
+
+    height: 29%;
+    width: 48%;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    border-radius: 20px;
+
+
+}
+
+.navbar-zd3 {
+
+    height: 27%;
+    width: 48%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    border-radius: 20px;
+
+
+}
+
+.navbar-zd4 {
+
+    height: 22%;
+    width: 48%;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    border-radius: 20px;
+
+
+}
+
+.navbar-info {
+
+position: absolute;
+top:0%;
+left: 0%;
+height: 30%;
+width: 100%;
+
+}
+
+.navbar-info-INFO {
+
+font-size: 150%;
+position: absolute;
+top: 282%;
+left: 46%;
+}
+
+.navbar-info-tel {
+
+position: absolute;
+left: 43%;
+top: 296%;
+
+}
+
+.navbar-info-ul {
+
+    position: absolute;
+    left: 43%;
+    top: 303%;
+
+}
+
+.navbar-info-email {
+
+    position: absolute;
+    left: 43%;
+    top: 311%;
+
+}
+
+@media screen and (max-width: 1537px) {
+
+    .navbar-zd4 {
+
+        height: 22%;
+        width: 45%;
+        position: absolute;
+        top: 77%;
+        left: 53%;
+        border-radius: 20px;
+    
+    
+    }
+
+    .navbar-top-mapa-text-box {
+
+       
+        height: 83%;
+        width: 17%;
+        position: absolute;
+        top: 5%;
+        left: -8%;
+        
+        
+        }
+
+        .navbar-top-mapa-inf3 {
+            position: absolute;
+            top: 13%;
+            left: 20%;
+        }
+
+
+}
+
+@media screen and (max-width: 1350px) {
+
+    .navbar-top-mapa-inf {
+
+       
+        top: 13%;
+        left: 15%;
+        
+        
+        
+        
+        }
+        
+    .navbar-top-mapa-inf2 {
+           
+            top: 13%;
+            left: 20%;
+        }
+
+    .navbar-top-mapa-inf3 {
+            
+            top: 13%;
+            left: 13%;
+        }
+
+    .navbar-zd2 {
+
+            
+            width: 46%;
+            left: 52%;
+            }
+
+
+    .navbar-zd4 {
+
+              
+                width: 41%;
+                left: 58%;
+               }
+
+    
+
+        
+
+
+}
