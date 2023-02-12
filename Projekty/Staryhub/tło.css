@@ -71,7 +71,7 @@
 	 
 	 
  box-shadow: inset 300px 0 0 0 gray;
-border-bottom: 2px solid #red;
+border-bottom: 2px solid red;
  border-radius: 5px;
  color: #970000;
  
@@ -80,7 +80,7 @@ border-bottom: 2px solid #red;
  
  }
  
- .p5_1: {
+ .p5_1 {
 	  width: 1481px;
     height: 80px;
     left: 210px;
