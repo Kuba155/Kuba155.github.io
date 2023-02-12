@@ -289,7 +289,7 @@ position: absolute;
 left: 25%;
 border-radius: 23px;
 color: white;
-top: 31%;
+top: 40%;
 
 
 }
@@ -391,5 +391,80 @@ margin-left: 4%;
             animation: kreski 4s ease infinite;
             
             }
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+
+
+
+            .navbar-top-logo{
+                font-size: 260%;
+                
+            }
+
+
+            .navbar-top-menu-M-box {
+                width: 14%;
+                
+            }
+
+            .navbar-top-menu-M {
+                top: 25%;
+                left: 13%;
+                font-size: 217%;
+            }
+
+            .navbar-top-st-op {               
+                top: 27%;
+                left: 12%;
+                font-size: 186%;
+            }
+
+            .navbar-top-menu-button-box {
+                
+                width: 17%;
+                
+                
+            }
+
+            .navbar-top-menu-button-P {
+                position: absolute;
+                top: 32%;
+                left: 16%;
+                font-size: 150%;
+            }
+
+            .navbar-center-hc {
+                width: 74%; 
+                left: 14%;
+                
+            }
+            .navbar-center-hc-logo {               
+                left: 39%;
+                font-size: 224%;
+            }
+            .navbar-center-hc li {               
+                font-size: 200%;
+            }
+            .navbar-center-WI {               
+                width: 74%;            
+                left: 14%;            
+                
+            }
+            .navbar-center-WI-logo {
+                position: relative;
+                left: 43%;
+                font-size: 200%;
+            }
+            .navbar-center-WI li {
+                font-size: 200%;
+            }
     
 
+        }
