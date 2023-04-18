@@ -8,9 +8,9 @@ function czas2() {
 var dzis = new Date();
 
 var miesoc = dzis.getMonth()+1;
-if (miesoc<10) miesoc = "0"+miesoc;
+
 var dzien = dzis.getDay();
-if (dzien<10) dzien = "0"+dzien;
+
 var rok = dzis.getFullYear();
 
 
