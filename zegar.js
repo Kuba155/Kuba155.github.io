@@ -9,7 +9,7 @@ var dzis = new Date();
 
 var miesoc = dzis.getMonth()+1;
 
-var dzien = dzis.getDay();
+var dzien = dzis.getDate();
 
 var rok = dzis.getFullYear();
 
