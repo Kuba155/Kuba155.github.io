@@ -1,0 +1,415 @@
+.p1 {
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #f8f4ec;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.tłoimg {
+
+
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+}
+
+
+.top {
+
+
+
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.top-menu {
+
+
+height: 5%;
+width: 90%;
+background: #e0ccac;
+position: absolute;
+top: 2%;
+left: 5%;
+border-radius:23px;
+
+
+}
+
+.top-menu-tb {
+
+background: #e0ccac;
+width: 6%;
+height: 65%;
+position: absolute;
+top: 18%;
+left: 7%;
+border-radius: 23px;
+cursor: pointer;
+transition: 1s;
+
+
+}
+
+.top-menu-tb:hover {
+
+background: #867355;
+
+}
+
+.top-menu-t {
+
+position: absolute;
+top: 9%;
+left: 20%;
+color: white;
+text-decoration: none;
+font-size: 130%;
+
+
+}
+
+.top-menu-rejestr {
+
+position: absolute;
+top: 18%;
+left: 17%;
+width: 9%;
+height: 65%;
+background: #e0ccac;
+border-radius: 23px;
+transition: 1s;
+
+}
+
+.top-menu-rejestr:hover {
+
+background: #867355;
+
+}
+
+.top-menu-rej-t {
+
+position: absolute;
+top: 9%;
+left: 30%;
+color: white;
+text-decoration: none;
+font-size: 130%;
+
+
+}
+
+.logo {
+
+
+height: 523%;
+width: 18%;
+position: absolute;
+top: -188%;
+left: 40%;
+
+
+
+
+}
+
+.top-menu-ce {
+
+position: absolute;
+width: 7%;
+height: 65%;
+top: 18%;
+left: 73%;
+background: #e0ccac;
+border-radius: 23px;
+transition: 1s;
+
+}
+
+.top-menu-ce:hover {
+
+background: #867355;
+
+}
+
+.top-menu-ce-t {
+
+position: absolute;
+top: 9%;
+left: 25%;
+text-decoration: none;
+color: white;
+font-size: 130%;
+
+}
+
+.top-opcje li {
+
+display: none;
+list-style: none;
+
+}
+
+.top-opcje a:focus + li,
+.top-opcje li:hover {
+
+display: block;
+
+}
+
+.top-opcje-b {
+
+position: absolute;
+width: 7%;
+height: 65%;
+top: 18%;
+left: 83%;
+background: #e0ccac;
+border-radius: 23px;
+transition: 1s;
+
+}
+
+.top-opcje-b:hover {
+
+background: #867355;
+
+}
+
+.top-opcje-b-t {
+
+
+position: absolute;
+color: white;
+top: 9%;
+left: 26%;
+font-size: 130%;
+
+
+}
+
+.social {
+
+
+width: 100%;
+height: 6%;
+position: absolute;
+bottom: 0%;
+left: 0%;
+background: #e0ccac;
+box-shadow: 0px 0px 70px 10px white;
+
+}
+
+.color {
+
+color: black;
+transition: 0.5s;
+}
+
+.color:hover {
+
+    color: gray;
+}
+
+.social li {
+
+margin: 2rem;
+display: inline-block;
+list-style: none;
+font-size: 180%;
+position: relative;
+top: -40%;
+left: 41.5%;
+
+
+}
+
+
+.sd-border-b {
+
+    width: 26%;
+    height: 58%;
+    background: #e0ccac;
+    position: absolute;
+    top:12%;
+    left: 5%;
+    opacity: 50%;
+    border-radius: 23px;
+
+}
+
+.sd-border-t {
+
+position: absolute;
+top: 5%;
+left: 30%;
+color: black;
+font-size: 180%;
+
+
+}
+
+.sd-border-t li {
+
+    position: relative;
+    left: -42%;
+    width: 130%;
+    font-size: 80%;
+    padding: 1.5rem;
+    
+    
+}
+
+.sd-border-b2 {
+
+    width: 26%;
+    height: 58%;
+    background: #e0ccac;
+    position: absolute;
+    top:30%;
+    left: 68%;
+    opacity: 50%;
+    border-radius: 23px;
+
+}
+
+.sd-border-t2 {
+
+position: absolute;
+top: 5%;
+left: 3%;
+color: black;
+font-size: 150%;
+
+
+}
+
+
+
+.konto {
+
+    width: 100%;
+    height: 100%;
+}
+
+.konto li {
+
+display: none;
+list-style: none;
+
+
+}
+
+.konto a:focus + li,
+.konto li:hover {
+
+display: block;
+
+}
+
+.avatar {
+
+width: 3%;
+height: 80%;
+position: absolute;
+top: 10%;
+left: 96%;
+background: white;
+border-radius: 4rem;
+cursor: pointer;
+transition: 1s;
+
+}
+
+
+.avatar:hover {
+
+background: gray ;
+
+}
+
+
+.logowanie {
+
+
+width: 40%;
+height: 717%;
+position: absolute;
+top: 346%;
+left: 30%;
+background: #867355 ;
+border-radius: 2rem;
+
+
+
+
+
+}
+
+.panel {
+
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    width: 43%;
+    height: 11%;
+    border-radius: 2rem;
+    background: #e0ccac;
+    opacity: 50%;
+    border: none;
+ 
+
+}
+
+.panel:focus {
+
+background: #f8f4ec;
+border: none;
+
+
+
+}
+
+.zaloguj {
+
+position: absolute;
+top: 37%;
+left: 56%;
+width: 30%;
+height: 14%;
+background: #e0ccac;
+border: none;
+border-radius: 23px;
+cursor: pointer;
+
+
+}
+
+
+.zaloguj:hover {
+
+
+background: gray;
+
+
+}
+
+.nazwa {
+
+position: absolute;
+top: 25%;
+left: 90%;
+color: white;
+font-size: 120%;
+
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 458px) {
+
+
+    .tłoimg {
+
+
+
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        left: 0%;
+    }
+
+
+    .social li {
+
+        margin: 2rem;
+        display: inline-block;
+        list-style: none;
+        font-size: 180%;
+        position: relative;
+        top: -60%;
+        left: 13%;
+        
+        
+        }
+
+
+
+
+    .logo {
+
+
+        height: 240%;
+        width: 20%;
+        position: absolute;
+        top: -53%;
+        left: 40%;
+        
+        
+        
+        
+        }
+
+
+
+}
