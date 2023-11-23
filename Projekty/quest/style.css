@@ -1,0 +1,220 @@
+.p1 {
+
+    height: 100%;
+    width: 100%;
+    background: #2a0079;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.os {
+
+    height: 60%;
+    width: 170%;
+    border-radius: 70%;
+    background: #4900cf;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    opacity: 6+0%;
+}
+.os2 {
+
+    height: 60%;
+    width: 170%;
+    border-radius: 70%;
+    background: #5900ff;
+    position: absolute;
+    top: 70%;
+    left: -30%;
+    opacity: 60%;
+}
+
+.navbar-top {
+
+width: 100%;
+height: 5%;
+background: #0b0020;
+position: fixed;
+z-index: 2022;
+top: 0%;
+left: 0%;
+
+}
+
+.text {
+
+    color: white;
+    position: absolute;
+    font-size: 120%;
+    height: 100%;
+    width: 100%;
+}
+
+.text-1 {
+
+   
+    top: 10%;
+    left: 45%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.text-11 {
+
+   
+    top: 10%;
+    left: 43%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+
+.text-2 {
+
+   
+    top: 15%;
+    left: 30%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.text-2i {
+
+   
+    top: 15%;
+    left: 40%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.text-22 {
+
+   
+    top: 15%;
+    left: 26%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.text-3 {
+
+   
+    top: 20%;
+    left: 45%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.text-33 {
+
+   
+    top: 20%;
+    left: 32%;
+    position: absolute;
+    z-index: 2022;
+   
+}
+
+.zag {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2022;
+}   
+.textbar {
+
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    z-index: 2022;
+}
+
+.textbar1 {
+
+    width: 160%;
+    height: 160%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 2022;
+    list-style: none;
+    
+}
+
+.textbar1 li {
+
+   padding: 2rem;
+    
+}
+
+.kod {
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+    
+}
+
+
+
+.zag {
+
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    top: -120%;
+    left: 0%;
+    width: 200%;
+   
+
+}
+
+
+
+
+
+.textbar1 div {
+
+    z-index: 2022;
+    position: absolute;
+
+
+}
+
+.finall {
+
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    z-index: 2022;
+
+}
+
+.textf {
+
+    font-size: 120%;
+    color: white;
+    position: absolute;
+    z-index: 2022;
+    top: 57%;
+    left: 70%;
+
+}
+
+.nagranie {
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 2022;
+}
